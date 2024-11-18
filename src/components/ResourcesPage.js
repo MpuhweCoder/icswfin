@@ -25,12 +25,12 @@ const resources = [
   {
     title: 'Annual Report 2019-2020',
     description: 'University policies and expectations for student behavior.',
-    link: '/public/Report202-2022ICSWKeralState.pdf',
+    link: 'https://smallpdf.com/file#s=262f35cd-4f8d-46f5-8865-411b6de89ba2',
   },
   {
     title: 'Annual Report 2018-2019',
-    description: 'Outline of requirements necessary for graduation.',
-    link: '/resources/Report2018-19ICSWKeralaState.pdf',
+    description: 'The annual general body meeting of ICSW Kerala was held on Saturday 28th July 2018 at 10.am.Mr. Anoop Joseph Joy made the welcome speech. Dr. Mary Joseph in her presidential speech told about the origin of ICSW in India and formation of ICSW Kerala branch. She also spoke about the strengthening of all district branches.',
+    link: 'https://smallpdf.com/file#s=0c5d7f2e-1c26-42e0-bd6f-b245d5475e8e',
   },
 ];
 
