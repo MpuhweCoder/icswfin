@@ -25,7 +25,7 @@ const Footer = () => {
           <Typography variant="body2">
             Rajagiri PO, Kalamassery, Cochin-683104<br/>
             Ph.0484-2532654, 4111358<br/>
-            Email: icswkerala@gmail.com<br />
+           <a href="mailto:icswkerala@gmail.com"color="white">e-mail:icswkerala@gmail.com</a><br />
           </Typography>
         </Grid>
       </Grid>

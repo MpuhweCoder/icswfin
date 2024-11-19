@@ -5,13 +5,14 @@ import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 const programs = [
   {
     imgSrc: '../reserch.png', // Replace with your image path
     title: 'Activities of ICSW Kerala',
     description: 'Policy think tanks .',
-    link: '/programs/computer-science',
+    link: '/programs/',
   },
  
   {
@@ -46,12 +47,7 @@ const programs = [
     imgSrc: '../lst.png', // Replace with your image path
     title: 'ICSW Kerala',
     description: '•	ICSW has a significant role in contributing to the profession of Social Work in our country, India and it aids in the verification process of Social Workers Abroad..',
-    link: '/programs/history',
   },
-
-
-
-
 ];
 
 const ProgramsPage = () => {
@@ -81,9 +77,10 @@ const ProgramsPage = () => {
                 <Typography variant="body2" sx={{ mb: 2 }}>
                   {program.description}
                 </Typography>
-                <Button variant="contained" color="primary" >
-                  Learn More
+                <Link to="/about" style={{ textDecoration: 'none' }}>
+                <Button variant="contained" color="primary" >Learn More
                 </Button>
+                </Link>
               </CardContent>
             </Card>
           </Grid>
